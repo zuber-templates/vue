@@ -1,6 +1,6 @@
-# client-side-frontend
+# Zuber Vue Template
 
-> A Vue.js project
+> A Vue.js Scaffold for Zuber Products
 
 ## Build Setup
 
