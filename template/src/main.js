@@ -5,6 +5,8 @@ import App from './App'
 import {sync} from 'vuex-router-sync'
 import store from './store'
 import router from './router'
+// style
+import './style/core.less'
 
 Vue.config.productionTip = false
 
