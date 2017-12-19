@@ -9,9 +9,6 @@
 
 	export default {
 		name: 'app',
-		store,
-		components: {
-			HeadNav
-		}
+		store
 	}
 </script>
