@@ -9,6 +9,7 @@ import router from './router'
 import './style/core.less'
 
 Vue.config.productionTip = false
+console.log(process.argv[process.argv.length-1])
 
 /* eslint-disable no-new */
 sync(store, router)
