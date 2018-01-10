@@ -7,7 +7,11 @@ function master() {
 
 function release() {
 	echo -=[切换至$1分支]=-
-	git branch $1
+	{
+		git branch $1
+	} || {
+		echo -=[$1分支已创建]=-
+	}
 	git checkout $1
 	git merge --no-ff master -m $2
 	echo '-=[打包项目]=-'
